@@ -1,0 +1,152 @@
+.blogPostCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.5rem;
+  gap: 1rem;
+  width: 20rem;
+  background: #ffffff;
+  box-shadow: 0px 0.75rem 1rem -0.25rem rgba(16, 24, 40, 0.08),
+    0px 0.25rem 0.375rem -0.125rem rgba(16, 24, 40, 0.03);
+  border-radius: 0.5rem;
+}
+
+.cardImage {
+  position: relative;
+  width: 100%;
+  height: 10rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.coverPlaceholder {
+  width: 21rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  color: #888888;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 21rem;
+}
+
+.typeLabel {
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #6941c6;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #101828;
+  margin: 0;
+}
+
+.description {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #667085;
+  line-height: 1.5rem;
+}
+
+.author {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #667085;
+  margin: 0;
+}
+
+.date {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #667085;
+  margin: 0;
+}
+
+.readMore {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #6941c6;
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+
+.readMore:hover {
+  text-decoration: underline;
+}
+
+.avatarLabelGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 0.75rem;
+  width: 8.4375rem;
+  height: 2.5rem;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 5.1875rem;
+  height: 2.5rem;
+}
+
+.authorName {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #101828;
+  margin: 0;
+}
+
+.publishDate {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #667085;
+  margin: 0;
+}
